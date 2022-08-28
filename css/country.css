@@ -1,10 +1,11 @@
-.countries{
+.country-dv {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4px;
+}
+
+.countries {
     background-color: pink;
     padding: 5px 10px;
     border-radius: 5px;
-};
-#countries{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 4;
 }
